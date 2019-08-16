@@ -12,17 +12,13 @@ $ apt install python2
 ````
 
 ````
-$ apt install python2-pip
-````
-
-````
 $ pip install flask
 ````
 
 # Run It :
  
  ````
- python2 xss.py
+ $ python2 xss.py
  ````
  
 # stealing cookie using xss :
