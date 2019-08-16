@@ -1,8 +1,8 @@
 from flask import Flask,request
 from termcolor import colored
 from time import sleep
-print ('\n\t[ Steal Cookie Using Xss .. ]\n\n')
-print(colored('\n\n[*] ','yellow')+'Coded By : Khaled Nassar @knassar702\n\n')
+print ('\n\t[ Steal Cookie Using Xss .. ]\n')
+print(colored('\n[*] ','yellow')+'Coded By : Khaled Nassar @knassar702\n\n')
 sleep(2)
 app = Flask(__name__)
 @app.route('/')
