@@ -1,5 +1,5 @@
 # steal-cookie
-steal cookies from website using xss :)
+steal cookies from websites using xss :)
 
 # Requirements :
 - python2
