@@ -3,7 +3,7 @@ from termcolor import colored
 app = Flask(__name__)
 @app.route('/')
 def index():
-	return 'steal cookie :) '
+	return 'Hello ^_^'
 @app.route('/cookie',methods=['GET','POST'])
 def steal():
 	if request.method == "GET" or request.method == "POST":
