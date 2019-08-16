@@ -16,10 +16,6 @@ $ apt install python2-pip
 ````
 
 ````
-git clone https://github.com/knassar702/steal-cookie
-````
-
-````
 $ pip install flask
 ````
 
