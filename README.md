@@ -3,7 +3,7 @@ steal cookies from website using xss :)
 
 # Requirements :
 - python2
-- flask module
+- Flask module
 
 # install requirements (Linux) :
 
