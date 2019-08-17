@@ -1,6 +1,14 @@
-from flask import Flask,request
-from termcolor import colored
-from time import sleep
+try:
+	from flask import Flask,request
+	from termcolor import colored
+	from time import sleep
+except:
+	print('[!] Install The Modules .. ')
+	import os
+	os.system('pip install flask')
+	os.system('pip install termcolor')
+	os.system('pip install time')
+	sys.exit()
 print ('\n\t[ Steal Cookie Using Xss .. ]\n')
 print(colored('\n[*] ','yellow')+'Coded By : Khaled Nassar @knassar702\n\n')
 sleep(2)
